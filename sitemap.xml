@@ -66,7 +66,22 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://rdhimports.vercel.app/tienda/retro/argentina-aniversario-jugador.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/retro/argentina-alternativa-2006-messi.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://rdhimports.vercel.app/tienda/mundial-2026/alemania-supl-2026-fan.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/mundial-2026/argentina-alternativa-manga-larga-2026.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
