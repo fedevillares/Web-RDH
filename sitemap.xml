@@ -281,11 +281,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rdhimports.vercel.app/tienda/clubes/liga-italiana/juventus-suplente-player-25-26.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-italiana/juventus-suplente-3-x-studiosgura-26-27.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -417,6 +412,21 @@
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-argentina/river-plate-supl-fan-25-26.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/clubes/liga-argentina/river-plate-home-player-26-27.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/clubes/liga-argentina/river-plate-supl-player-26-27.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/clubes/liga-argentina/river-plate-supl-3-player-26-27.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
