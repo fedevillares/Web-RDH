@@ -2891,5 +2891,142 @@
     "localImages": [
       "1.webp"
     ]
+  },
+  {
+    "name": "Ajax Alternativa 95/96",
+    "slug": "ajax-away-95-96",
+    "section": "retro",
+    "league": null,
+    "quality": "player",
+    "price": 48000,
+    "priceDisplay": 48000,
+    "teamKey": "Ajax Alternativa 95/96",
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
+    ],
+    "source": "fotos whatsapp"
+  },
+  {
+    "name": "Manchester United Alternativa 99/00",
+    "slug": "manchester-united-away-99-00",
+    "section": "retro",
+    "league": null,
+    "quality": "player",
+    "price": 48000,
+    "priceDisplay": 48000,
+    "teamKey": "Manchester United Alternativa 99/00",
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
+    ],
+    "source": "fotos whatsapp"
+  },
+  {
+    "name": "Arsenal Alternativa 95/96",
+    "slug": "arsenal-away-95-96",
+    "section": "retro",
+    "league": null,
+    "quality": "player",
+    "price": 48000,
+    "priceDisplay": 48000,
+    "teamKey": "Arsenal Alternativa 95/96",
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
+    ],
+    "source": "fotos whatsapp"
+  },
+  {
+    "name": "Chelsea Alternativa 98/00",
+    "slug": "chelsea-away-98-00",
+    "section": "retro",
+    "league": null,
+    "quality": "player",
+    "price": 48000,
+    "priceDisplay": 48000,
+    "teamKey": "Chelsea Alternativa 98/00",
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp"
+    ],
+    "source": "fotos whatsapp"
+  },
+  {
+    "name": "Manchester United Alternativa 00/01",
+    "slug": "manchester-united-away-00-01",
+    "section": "retro",
+    "league": null,
+    "quality": "player",
+    "price": 48000,
+    "priceDisplay": 48000,
+    "teamKey": "Manchester United Alternativa 00/01",
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp"
+    ],
+    "source": "fotos whatsapp"
+  },
+  {
+    "name": "Tottenham Alternativa 94/95",
+    "slug": "tottenham-away-94-95",
+    "section": "retro",
+    "league": null,
+    "quality": "player",
+    "price": 48000,
+    "priceDisplay": 48000,
+    "teamKey": "Tottenham Alternativa 94/95",
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
+    ],
+    "source": "fotos whatsapp"
+  },
+  {
+    "name": "Inglaterra Alternativa Eurocopa 96",
+    "slug": "inglaterra-away-euro-96",
+    "section": "retro",
+    "league": null,
+    "quality": "player",
+    "price": 48000,
+    "priceDisplay": 48000,
+    "teamKey": "Inglaterra Alternativa Eurocopa 96",
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp"
+    ],
+    "source": "fotos whatsapp"
+  },
+  {
+    "name": "Ajax Titular 25/26 · Amsterdam 750",
+    "slug": "ajax-home-25-26-amsterdam",
+    "section": "clubes",
+    "league": "resto-del-mundo",
+    "quality": "player",
+    "price": 48000,
+    "priceDisplay": 48000,
+    "teamKey": "Ajax Titular 25/26 · Amsterdam 750",
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
+    ],
+    "source": "fotos whatsapp"
   }
 ]

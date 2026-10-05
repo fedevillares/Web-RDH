@@ -525,4 +525,44 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/retro/ajax-away-95-96.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/retro/manchester-united-away-99-00.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/retro/arsenal-away-95-96.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/retro/chelsea-away-98-00.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/retro/manchester-united-away-00-01.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/retro/tottenham-away-94-95.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/retro/inglaterra-away-euro-96.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/clubes/resto-del-mundo/ajax-home-25-26-amsterdam.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
