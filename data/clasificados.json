@@ -3035,8 +3035,8 @@
     "section": "clubes",
     "league": "liga-argentina",
     "quality": "player",
-    "price": 55000,
-    "priceDisplay": 55000,
+    "price": 50000,
+    "priceDisplay": 50000,
     "teamKey": "Rosario Central",
     "localImages": [
       "1.webp",
