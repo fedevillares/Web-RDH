@@ -1591,7 +1591,7 @@
     "name": "Camiseta Manchester City Supl 3 FAN 25/26",
     "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8291-8160fa8f1ebdd5903a17634934672508-480-0.webp",
     "sku": "1121",
-    "price": 45000,
+    "price": 48000,
     "availability": "https://schema.org/InStock",
     "gallery": [
       "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8291-8160fa8f1ebdd5903a17634934672508-1024-1024.webp",
@@ -1604,12 +1604,12 @@
       "league": "liga-inglesa",
       "leagueName": "Liga Inglesa"
     },
-    "quality": "fan",
+    "quality": "player",
     "section": "clubes",
     "league": "liga-inglesa",
     "leagueName": "Liga Inglesa",
-    "slug": "manchester-city-supl-3-fan-25-26",
-    "priceDisplay": 41000,
+    "slug": "manchester-city-supl-3-player-25-26",
+    "priceDisplay": 48000,
     "localImages": [
       "1.webp",
       "2.webp",
@@ -3028,5 +3028,24 @@
       "4.webp"
     ],
     "source": "fotos whatsapp"
+  },
+  {
+    "name": "Rosario Central Titular 26/27",
+    "slug": "rosario-central-home-26-27",
+    "section": "clubes",
+    "league": "liga-argentina",
+    "quality": "fan",
+    "price": 55000,
+    "priceDisplay": 55000,
+    "teamKey": "Rosario Central",
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp"
+    ],
+    "source": "https://sacadelmedio.com.ar/productos/camiseta-rosario-central-home-26-27-1oe0c/"
   }
 ]

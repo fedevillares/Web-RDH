@@ -296,7 +296,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rdhimports.vercel.app/tienda/clubes/liga-inglesa/manchester-city-supl-3-fan-25-26.html</loc>
+    <loc>https://rdhimports.vercel.app/tienda/clubes/liga-inglesa/manchester-city-supl-3-player-25-26.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -562,6 +562,11 @@
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/resto-del-mundo/ajax-home-25-26-amsterdam.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/clubes/liga-argentina/rosario-central-home-26-27.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
