@@ -3031,10 +3031,10 @@
   },
   {
     "name": "Rosario Central Titular 26/27",
-    "slug": "rosario-central-home-26-27",
+    "slug": "rosario-central-home-player-26-27",
     "section": "clubes",
     "league": "liga-argentina",
-    "quality": "fan",
+    "quality": "player",
     "price": 55000,
     "priceDisplay": 55000,
     "teamKey": "Rosario Central",
