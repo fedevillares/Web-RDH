@@ -31,3 +31,7 @@ venv/
 *.exe
 local.properties
 .flutter-plugins-dependencies
+
+# Originales de video (no se suben)
+_originals/
+videos/

@@ -6,7 +6,8 @@
 <title>RDH Imports — El Rincón del Hincha</title>
 <meta name="description" content="Camisetas de fútbol importadas: clubes, selecciones y retro. Pedí la tuya por WhatsApp o Instagram — RDH Imports, Rosario.">
 <link rel="canonical" href="https://rdhimports.vercel.app/">
-<link rel="preload" as="image" href="assets/img/derebote1.jpg.jpeg" fetchpriority="high">
+<link rel="preload" as="image" href="assets/video/hero.jpg" media="(orientation: landscape)" fetchpriority="high">
+<link rel="preload" as="image" href="assets/video/hero-vertical.jpg" media="(orientation: portrait)" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@1,500;1,600&display=swap">
@@ -175,7 +176,14 @@
 
 <!-- ================= HERO ================= -->
 <section class="hero" id="top">
-  <div class="hero-bg" style="background-image:url('assets/img/derebote1.jpg.jpeg')"></div>
+  <div class="hero-bg"></div>
+  <div class="hero-media" data-bg-video="auto" aria-hidden="true">
+    <picture>
+      <source media="(orientation: portrait)" srcset="assets/video/hero-vertical.jpg" width="720" height="1280">
+      <img class="bg-video-poster" src="assets/video/hero.jpg" width="1920" height="1080" alt="" fetchpriority="high" decoding="async" onerror="this.closest('.hero').classList.add('poster-failed')">
+    </picture>
+    <video class="bg-video" autoplay muted loop playsinline preload="metadata" data-src="assets/video/hero.mp4" data-src-portrait="assets/video/hero-vertical.mp4" data-start="3" tabindex="-1" aria-hidden="true" disablepictureinpicture></video>
+  </div>
   <div class="hero-overlay"></div>
   <div class="wrap hero-inner">
     <p class="eyebrow reveal">Importación directa · Clubes · Selecciones · Retro</p>
@@ -222,32 +230,56 @@
     <p class="section-desc reveal">Consultanos disponibilidad, talles y precio por WhatsApp o Instagram — te respondemos al toque.</p>
 
     <div class="cat-grid">
-      <article class="cat-card reveal">
+      <article class="cat-card reveal" data-bg-video-host>
+        <div class="cat-media" data-bg-video="hover" aria-hidden="true">
+          <img class="bg-video-poster" src="assets/video/clubes.jpg" width="1280" height="720" alt="" loading="lazy" decoding="async">
+          <video class="bg-video" muted loop playsinline preload="none" data-src="assets/video/clubes.mp4" data-start="1.5" tabindex="-1" aria-hidden="true" disablepictureinpicture></video>
+        </div>
         <h3>Camisetas de Clubes</h3>
         <p>Titular, alternativa y tercera de los clubes más grandes de Europa y Sudamérica.</p>
         <a href="tienda/clubes/index.html" class="cat-link">Ver productos <span>→</span></a>
       </article>
-      <article class="cat-card reveal">
+      <article class="cat-card reveal" data-bg-video-host>
+        <div class="cat-media" data-bg-video="hover" aria-hidden="true">
+          <img class="bg-video-poster" src="assets/video/selecciones.jpg" width="1280" height="720" alt="" loading="lazy" decoding="async">
+          <video class="bg-video" muted loop playsinline preload="none" data-src="assets/video/selecciones.mp4" data-start="1.5" tabindex="-1" aria-hidden="true" disablepictureinpicture></video>
+        </div>
         <h3>Selecciones</h3>
         <p>Camisetas de selecciones nacionales para vivir cada Mundial y Copa América.</p>
         <a href="tienda/selecciones/index.html" class="cat-link">Ver productos <span>→</span></a>
       </article>
-      <article class="cat-card reveal">
+      <article class="cat-card reveal" data-bg-video-host>
+        <div class="cat-media" data-bg-video="hover" aria-hidden="true">
+          <img class="bg-video-poster" src="assets/video/mundial-2026.jpg" width="1280" height="720" alt="" loading="lazy" decoding="async">
+          <video class="bg-video" muted loop playsinline preload="none" data-src="assets/video/mundial-2026.mp4" data-start="1.5" tabindex="-1" aria-hidden="true" disablepictureinpicture></video>
+        </div>
         <h3>Mundial 2026</h3>
         <p>Camisetas oficiales rumbo al Mundial 2026.</p>
         <a href="tienda/mundial-2026/index.html" class="cat-link">Ver productos <span>→</span></a>
       </article>
-      <article class="cat-card reveal">
+      <article class="cat-card reveal" data-bg-video-host>
+        <div class="cat-media" data-bg-video="hover" aria-hidden="true">
+          <img class="bg-video-poster" src="assets/video/retro.jpg" width="1280" height="720" alt="" loading="lazy" decoding="async">
+          <video class="bg-video" muted loop playsinline preload="none" data-src="assets/video/retro.mp4" data-start="1.5" tabindex="-1" aria-hidden="true" disablepictureinpicture></video>
+        </div>
         <h3>Retro</h3>
         <p>Camisetas de temporadas pasadas para los que juegan de memoria.</p>
         <a href="tienda/retro/index.html" class="cat-link">Ver productos <span>→</span></a>
       </article>
-      <article class="cat-card reveal">
+      <article class="cat-card reveal" data-bg-video-host>
+        <div class="cat-media" data-bg-video="hover" aria-hidden="true">
+          <img class="bg-video-poster" src="assets/video/shorts.jpg" width="1280" height="720" alt="" loading="lazy" decoding="async">
+          <video class="bg-video" muted loop playsinline preload="none" data-src="assets/video/shorts.mp4" data-start="1.5" tabindex="-1" aria-hidden="true" disablepictureinpicture></video>
+        </div>
         <h3>Shorts</h3>
         <p>Shorts a juego con tu camiseta para armar el conjunto completo.</p>
         <a href="tienda/shorts/index.html" class="cat-link">Ver productos <span>→</span></a>
       </article>
-      <article class="cat-card reveal">
+      <article class="cat-card reveal" data-bg-video-host>
+        <div class="cat-media" data-bg-video="hover" aria-hidden="true">
+          <img class="bg-video-poster" src="assets/video/medias.jpg" width="1280" height="720" alt="" loading="lazy" decoding="async">
+          <video class="bg-video" muted loop playsinline preload="none" data-src="assets/video/medias.mp4" data-start="1.5" tabindex="-1" aria-hidden="true" disablepictureinpicture></video>
+        </div>
         <h3>Medias Antideslizantes</h3>
         <p>Medias antideslizantes importadas, para no perder pisada en cada jugada.</p>
         <a href="tienda/medias/index.html" class="cat-link">Ver productos <span>→</span></a>
@@ -382,5 +414,6 @@
   }
 </script>
 <script src="js/main.js?v=3"></script>
+<script src="js/bg-video.js?v=1"></script>
 </body>
 </html>

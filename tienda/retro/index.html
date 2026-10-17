@@ -128,7 +128,11 @@
   </div>
 </div>
 
-<section class="page-hero">
+<section class="page-hero has-video">
+  <div class="page-hero-media" data-bg-video="auto" aria-hidden="true">
+    <img class="bg-video-poster" src="../../assets/video/retro.jpg" width="1280" height="720" alt="" decoding="async">
+    <video class="bg-video" muted loop playsinline preload="none" data-src="../../assets/video/retro.mp4" data-start="1.5" tabindex="-1" aria-hidden="true" disablepictureinpicture></video>
+  </div>
   <div class="wrap">
     <p class="section-eyebrow reveal">Tienda</p>
     <h1 class="section-title reveal">Retro</h1>
@@ -365,6 +369,7 @@
   }
 </script>
 <script src="../../js/main.js?v=3"></script>
+<script src="../../js/bg-video.js?v=1"></script>
 <script>
 (function(){
   var buttons = document.querySelectorAll('.quality-filter button');
