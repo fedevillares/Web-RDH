@@ -69,11 +69,35 @@
   };
 
   if (pdpMain && pdpThumbs.length) {
+    let pdpVideo = null;
+    const hideVideo = () => {
+      if (!pdpVideo) return;
+      pdpVideo.pause();
+      pdpVideo.remove();
+      pdpVideo = null;
+      pdpMainWrap.classList.remove('has-video');
+    };
     pdpThumbs.forEach(btn => btn.addEventListener('click', () => {
       const img = btn.querySelector('img');
-      setMainImage(img.getAttribute('src'), img.getAttribute('alt'));
       pdpThumbs.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
+      if (btn.dataset.video) {
+        hideVideo();
+        pdpVideo = document.createElement('video');
+        pdpVideo.src = btn.dataset.video;
+        pdpVideo.poster = img.getAttribute('src');
+        pdpVideo.controls = true;
+        pdpVideo.autoplay = true;
+        pdpVideo.muted = true;
+        pdpVideo.loop = true;
+        pdpVideo.playsInline = true;
+        pdpVideo.setAttribute('aria-label', img.getAttribute('alt'));
+        pdpMainWrap.classList.add('has-video');
+        pdpMainWrap.appendChild(pdpVideo);
+        return;
+      }
+      hideVideo();
+      setMainImage(img.getAttribute('src'), img.getAttribute('alt'));
     }));
   }
 
@@ -175,7 +199,7 @@
   }
 
   if (pdpMainWrap && pdpLightbox && pdpLightboxImg) {
-    const slides = Array.from(pdpThumbs).map(btn => {
+    const slides = Array.from(pdpThumbs).filter(btn => !btn.dataset.video).map(btn => {
       const img = btn.querySelector('img');
       return { src: img.getAttribute('src'), alt: img.getAttribute('alt') };
     });
@@ -201,7 +225,9 @@
       pdpLightbox.classList.remove('open');
       document.body.style.overflow = '';
     };
-    pdpMainWrap.addEventListener('click', openLightbox);
+    pdpMainWrap.addEventListener('click', () => {
+      if (!pdpMainWrap.classList.contains('has-video')) openLightbox();
+    });
     pdpLightbox.addEventListener('click', (e) => {
       if (e.target === pdpLightboxImg) return;
       closeLightbox();
