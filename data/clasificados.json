@@ -3047,5 +3047,57 @@
       "6.webp"
     ],
     "source": "https://sacadelmedio.com.ar/productos/camiseta-rosario-central-home-26-27-1oe0c/"
+  },
+  {
+    "quality": "player",
+    "price": 70000,
+    "priceDisplay": 70000,
+    "name": "Camiseta Argentina Home Player 2026 Edición Mundial",
+    "slug": "argentina-home-player-2026-edicion-mundial",
+    "section": "mundial-2026",
+    "teamKey": "Argentina",
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp"
+    ],
+    "source": "https://www.soccer28.com/Argentina-2026-World-Cup-Home-Player-Version-Soccer-Jersey-p2573041.html"
+  },
+  {
+    "quality": "player",
+    "price": 70000,
+    "priceDisplay": 70000,
+    "name": "Camiseta Manchester United Supl 3 Player Manga Larga 26/27",
+    "slug": "manchester-united-supl-3-player-manga-larga-26-27",
+    "section": "clubes",
+    "league": "liga-inglesa",
+    "leagueName": "Liga Inglesa",
+    "teamKey": "Manchester United",
+    "localImages": [
+      "1.webp",
+      "2.webp"
+    ],
+    "source": "https://www.soccer28.com/26-27-Man-Utd-Third-Player-Version-Long-Sleeve-Soccer-Jersey-p2577433.html"
+  },
+  {
+    "quality": "player",
+    "price": 70000,
+    "priceDisplay": 70000,
+    "name": "Camiseta Francia Supl Player 2026 Estrella Bordada",
+    "slug": "francia-supl-player-2026-estrella-bordada",
+    "section": "mundial-2026",
+    "teamKey": "Francia",
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp",
+      "7.webp"
+    ],
+    "source": "https://www.soccer28.com/26-27-France-Away-Player-Version-Soccer-Jersey-embroidery-star%E5%88%BA%E7%BB%A3%E6%98%9F%E6%98%9F-p2575711.html"
   }
 ]
